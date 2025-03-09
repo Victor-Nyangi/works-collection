@@ -1,5 +1,5 @@
 ---
-title: Welcome to Victor Gichui's Docs
+title: Welcome to my Works
 description: View and interact with my current and previous masterpiece projects.
 template: splash
 hero:
@@ -8,7 +8,7 @@ hero:
     file: ../../assets/houston.webp
   actions:
     - text: Work Projects
-      link: /work/example/
+      link: /work/view/
       icon: right-arrow
       variant: primary
     - text: My LinkedIn Profile
@@ -21,16 +21,16 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## My Projects
 
 <CardGrid stagger>
-	<Card title="Work" icon="pencil">
-		View projects I've worked on for various companies as an employee.
-	</Card>
-	<Card title="Consultancy" icon="add-document">
-		Interact with some of my trademark works as a Consultant.
-	</Card>
-	<Card title="Hobbies" icon="setting">
-		A glimpse of what my creative mind is capable of doing.
-	</Card>
-	<Card title="Knowledge" icon="open-book">
-		From stoic teachings to tech concepts and fitness tips, I freely share my knowledge to the world.
-	</Card>
+    <Card title="Work" icon="pencil" link="/work/view">
+        View projects I've worked on for various companies as an employee.
+    </Card>
+    <Card title="Consultancy" icon="add-document" link="/consultancy/view">
+        Interact with some of my trademark works as a Consultant.
+    </Card>
+    <Card title="Hobbies" icon="setting" link="/hobbies/view">
+        A glimpse of what my creative mind is capable of doing.
+    </Card>
+    <Card title="Knowledge" icon="open-book" link="/knowledge/view">
+        From stoic teachings to tech concepts and fitness tips, I freely share my knowledge to the world.
+    </Card>
 </CardGrid>

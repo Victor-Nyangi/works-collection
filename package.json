@@ -10,10 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.25.1",
-    "astro": "^4.10.2",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/mdx": "^4.1.0",
+    "@astrojs/react": "^4.2.1",
+    "@astrojs/starlight": "^0.32.2",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "astro": "^5.4.2",
+    "framer-motion": "^12.4.10",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "sharp": "^0.32.5",
-    "@astrojs/check": "^0.8.2",
     "typescript": "^5.5.3"
   }
 }
