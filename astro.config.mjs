@@ -21,17 +21,10 @@ export default defineConfig({
             },
             {
                 label: 'Consultancy',
-                autogenerate: { directory: 'consultancy',  slug: 'consultancy/view' },
-            },
-            {
-                label: 'Hobbies',
                 items: [
                     // Each item here is one entry in the navigation menu.
-                    { label: 'Hobby Projects', slug: 'hobbies/view' },
-                ],				},
-            {
-                label: 'Knowledge',
-                autogenerate: { directory: 'knowledge' , slug: 'knowledge/view'},
+                    { label: 'Consultancy', slug: 'consultancy/view' },
+                ],            
             },
         ],
 		}), react(),mdx(),],
