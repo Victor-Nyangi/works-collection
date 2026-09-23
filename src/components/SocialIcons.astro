@@ -1,0 +1,28 @@
+---
+// Starlight's `social` config only accepts a fixed list of social platforms, so the
+// personal site link is added here as a sibling of the default social icons.
+import Default from '@astrojs/starlight/components/SocialIcons.astro';
+import { Icon } from '@astrojs/starlight/components';
+---
+
+<Default {...Astro.props} />
+<a href="https://www.nyangi.dev" rel="me" class="site-link sl-flex">
+	nyangi.dev
+	<Icon name="external" />
+</a>
+
+<style>
+	.site-link {
+		align-items: center;
+		gap: 0.25em;
+		color: var(--sl-color-text-accent);
+		font-size: var(--sl-text-sm);
+		text-decoration: none;
+		white-space: nowrap;
+		padding: 0.5em;
+		margin: -0.5em;
+	}
+	.site-link:hover {
+		opacity: 0.66;
+	}
+</style>

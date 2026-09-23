@@ -11,6 +11,10 @@ export default defineConfig({
         social: {
             github: 'https://github.com/Victor-Nyangi',
         },
+        components: {
+            // Adds a nyangi.dev link beside the GitHub icon in the header.
+            SocialIcons: './src/components/SocialIcons.astro',
+        },
         sidebar: [
             {
                 label: 'Work',
