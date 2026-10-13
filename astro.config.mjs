@@ -6,6 +6,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
+    site: 'https://works-collection.vercel.app',
     integrations: [starlight({
         title: 'Victor Gichui\'s Works',
         social: {
